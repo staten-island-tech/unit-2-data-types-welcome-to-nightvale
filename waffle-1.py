@@ -9,11 +9,11 @@ z = y[0]
 print(y)
 print(z) """
 
-x = input("Enter a sentence")
+""" x = input("Enter a sentence")
 y = x.split()
 z = 
 print(y)
-print(z)
+print(z) """
 
 """ values = [1, 2.23, 5, 7, 2, 30, 15]
 print(values)
@@ -65,3 +65,14 @@ if x == "great":
     print("25%") """
 
 """ num = int(input("enter a number")) """
+
+""" number = int(input("enter a number"))
+if number isFactor of 18 and ifnumber isFactor 25 """
+
+def discount(isMember, age, isResident):
+    if ('isMember = True or isResident = True or age <12 or age >= 65'):
+        print("Qualifies for theme park discount")
+    if ('isMember = False or isResident = False or age >12 or age <= 65'):
+        print("Does not qualify for discount")
+
+discount(False, 30, False)
