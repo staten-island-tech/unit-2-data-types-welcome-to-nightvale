@@ -42,5 +42,14 @@ elif temp == 68:
 else:
     print('cold') """
 
-num = input()
-if num 
+""" num = input("enter a number")
+if (num % 2) == 0:
+    print('even')
+else:
+    print('odd') """
+
+num = int(input("Enter a number: "))
+if (num % 2) == 0:
+   print("{0} is Even".format(num))
+else:
+   print("{0} is Odd".format(num))
