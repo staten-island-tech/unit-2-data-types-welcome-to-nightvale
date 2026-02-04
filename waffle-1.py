@@ -67,15 +67,30 @@ if x == "good":
 if x == "great":
     print("25%") """
 
+""" bill = float(input('How much is the bill? '))
+service = input('How was the service? ')
+def tip(bill, service):
+    if service == "bad":
+        print("Tip is 0%")
+        print(f"Your total is {bill}")
+    elif service == "okay":
+        print("Tip is 15%")
+        print(f"Your total is {bill *1.15}")
+    elif service == "good":
+        print("Tip is 20%")
+        print(f"Your total is {bill * 1.2}")
+    elif service == "great":
+        print("Tip is 25%")
+        print(f"Your total is {bill * 1.25}")
+tip(bill, service) """
+
 """ num = int(input("enter a number")) """
 
 """ number = int(input("enter a number"))
 if number isFactor of 18 and ifnumber isFactor 25 """
 
 """ def discount(isMember, age, isResident):
-    if ('isMember = True or isResident = True'):
-        print("Qualifies for theme park discount")
-    elif ('age < 12 or age >= 65'):
+    if ('isMember = True or isResident = True or age < 12 or age >= 65'):
         print("Qualifies for theme park discount")
     else:
         print("Does not qualify for discount")
@@ -88,5 +103,13 @@ def factor(x):
     for i in range(1, x + 1):
         if (x % i) == 0:
             print(i)
-
 factor(num) """
+
+num1 = int(input('enter first number'))
+num2 = int(input('enter second number'))
+
+def gcf(num1, num2):
+    for i in range(1, num1 + 1 and num2)
+    if (num1 )
+
+
