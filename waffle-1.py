@@ -1,4 +1,3 @@
-
 """ x = 3
 y = float(3)
 print (x,y) """
@@ -9,11 +8,9 @@ z = y[0]
 print(y)
 print(z) """
 
-""" x = input("Enter a sentence")
+""" x = input("input a sentence")
 y = x.split()
-z = 
-print(y)
-print(z) """
+print(len(y)) """
 
 """ values = [1, 2.23, 5, 7, 2, 30, 15]
 print(values)
@@ -48,19 +45,12 @@ elif temp == 68:
 else:
     print('cold') """
 
-<<<<<<< HEAD
-""" num = input("enter a number")
+""" num = int(input("enter a number"))
 if (num % 2) == 0:
     print('even')
 else:
     print('odd') """
 
-num = int(input("Enter a number: "))
-if (num % 2) == 0:
-   print("{0} is Even".format(num))
-else:
-   print("{0} is Odd".format(num))
-=======
 """ x = int(input("enter a number"))
 if (x % 2) == 0:
     print("even")
@@ -82,11 +72,21 @@ if x == "great":
 """ number = int(input("enter a number"))
 if number isFactor of 18 and ifnumber isFactor 25 """
 
-def discount(isMember, age, isResident):
-    if ('isMember = True or isResident = True or age <12 or age >= 65'):
+""" def discount(isMember, age, isResident):
+    if ('isMember = True or isResident = True'):
         print("Qualifies for theme park discount")
-    if ('isMember = False or isResident = False or age >12 or age <= 65'):
+    elif ('age < 12 or age >= 65'):
+        print("Qualifies for theme park discount")
+    else:
         print("Does not qualify for discount")
 
-discount(False, 30, False)
->>>>>>> 67fd0743c38390b0c1d27cc5aabb12f0bf89349e
+discount(False, 30, False) """
+# ^^ assigned in class 
+
+""" num = int(input('enter a number'))
+def factor(x):
+    for i in range(1, x + 1):
+        if (x % i) == 0:
+            print(i)
+
+factor(num) """
