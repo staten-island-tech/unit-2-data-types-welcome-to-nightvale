@@ -105,11 +105,19 @@ def factor(x):
             print(i)
 factor(num) """
 
-num1 = int(input('enter first number'))
-num2 = int(input('enter second number'))
+""" num1 = int(input('enter first number '))
+num2 = int(input('enter second number '))
 
-def gcf(num1, num2):
-    for i in range(1, num1 + 1 and num2)
-    if (num1 )
+def gcf(no_1,):
+    for i in range(1, no_1 + 1):
+        if (no_1 % 1) == 0:
+            print(i)
+gcf(num1, num2) """
 
-
+num1 = int(input('enter first number '))
+num2 = int(input('enter second number '))
+def gcf(x, y):
+    for i in range(1, x + 1 and y + 1):
+        if (x % i) == 0 and (y % i == 0):
+            print(i)
+gcf(num1,num2)
