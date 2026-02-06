@@ -22,8 +22,8 @@ print(values[6]) """
 
 """ x = input
 y = x.split( )
-print(y)
- """
+print(y) """
+
 """ day_of_week = input("what day is it?")
 if day_of_week == "Friday":
     print("correct")
@@ -33,8 +33,8 @@ else:
 """ x = input()
 y = x.split()
 print(y) """
-""" 
-x = "test"
+
+""" x = "test"
 print(f"hello {x}")
 
 temp = 68
@@ -114,10 +114,12 @@ def gcf(no_1,):
             print(i)
 gcf(num1, num2) """
 
-num1 = int(input('enter first number '))
-num2 = int(input('enter second number '))
+""" num1 = int(input('enter first, smaller number '))
+num2 = int(input('enter second, larger number '))
 def gcf(x, y):
-    for i in range(1, x + 1 and y + 1):
+    l = []
+    for i in range(2, y):
         if (x % i) == 0 and (y % i == 0):
-            print(i)
-gcf(num1,num2)
+            l.insert(0, i)
+    print(l[0])
+gcf(num1,num2) """
