@@ -88,9 +88,9 @@ tip(bill, service) """
 
 """ number = int(input("enter a number"))
 if number isFactor of 18 and ifnumber isFactor 25 """
-
-""" def discount(isMember, age, isResident):
-    if ('isMember = True or isResident = True or age < 12 or age >= 65'):
+""" 
+def discount(isMember, age, isResident):
+    if (isMember) or (isResident) or (age < 12 or age >= 65):
         print("Qualifies for theme park discount")
     else:
         print("Does not qualify for discount")
